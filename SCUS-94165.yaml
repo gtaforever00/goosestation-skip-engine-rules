@@ -1,0 +1,11 @@
+SCUS-94165:
+  game_name: "Final Fantasy VII (Disc 3)"
+  rules:
+    - name: "Battle transition - Start"
+      start: "0xH62c48>h0"
+      stop: "0xH62c48<=h0"
+      max_frames: 1500
+    - name: "Battle transition - End"
+      start: "0xH1fb5f1>h0"
+      stop: "0xH1fb5f1<=h0"
+      max_frames: 1500

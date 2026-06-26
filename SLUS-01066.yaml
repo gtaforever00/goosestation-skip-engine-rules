@@ -1,0 +1,19 @@
+SLUS-01066:
+  game_name: "Tony Hawk's Pro Skater 2"
+  rules:
+    - name: "Fade"
+      start: "0xHcf5f4<h1"
+      stop: "0xHcf5f4>=h1"
+      max_frames: 200
+    - name: "Loading Screen - Title"
+      start: "N:0xX1c2314>=h80010000_0xX1c2314<h80200000"
+      stop: "O:0xX1c2314<h80010000_0xX1c2314>=h80200000"
+      max_frames: 1500
+    - name: "Loading Screen - Level"
+      start: "0xHd29a4>h0"
+      stop: "0xHd29a4<=h0"
+      max_frames: 1500
+    - name: "Loading Screen - Back"
+      start: "0xOd941c=1"
+      stop: "0xOd941c=0"
+      max_frames: 300

@@ -1,0 +1,7 @@
+SLUS-00923:
+  game_name: "Resident Evil 3 - Nemesis"
+  rules:
+    - name: "Door"
+      start: "0xHc7960>h0"
+      stop: "0xHc7960<=h0"
+      max_frames: 1500

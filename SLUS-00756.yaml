@@ -1,0 +1,7 @@
+SLUS-00756:
+  game_name: "Resident Evil 2 - Dual Shock Ver. (Disc 2)"
+  rules:
+    - name: "Door"
+      start: "0xNcfb2f=1"
+      stop: "0xNcfb2f=0"
+      max_frames: 1500
