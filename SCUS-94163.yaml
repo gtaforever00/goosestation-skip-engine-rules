@@ -2,10 +2,14 @@ SCUS-94163:
   game_name: "Final Fantasy VII (Disc 1)"
   rules:
     - name: "Battle transition - Start"
-      start: "0xH62c26<h1"
-      stop: "0xH62c26>=h1"
+      start: "0xO513a0=1"
+      stop: "0xO513a0=0"
+      max_frames: 1500
+    - name: "Battle transition - Start Alt"
+      start: "0xS513e9=1"
+      stop: "0xS513e9=0"
       max_frames: 1500
     - name: "Battle transition - End"
-      start: "0xH1fb5f1>h0"
-      stop: "0xH1fb5f1<=h0"
+      start: "0xT62e44=1"
+      stop: "0xT62e44=0"
       max_frames: 1500
