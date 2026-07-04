@@ -1,0 +1,7 @@
+SLUS-00027:
+  game_name: "Blood Omen - Legacy of Kain"
+  rules:
+    - name: "Loading"
+      start: "0xM953f8=1"
+      stop: "0xM953f8=0"
+      max_frames: 1500

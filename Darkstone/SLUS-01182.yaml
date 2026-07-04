@@ -1,0 +1,15 @@
+SLUS-01182:
+  game_name: "Darkstone"
+  rules:
+    - name: "Save/Load"
+      start: "0xH86cc>h0"
+      stop: "0xH86cc<=h0"
+      max_frames: 1500
+    - name: "Loading - Area"
+      start: "0xM1fff0d=1"
+      stop: "0xM1fff0d=0"
+      max_frames: 1500
+    - name: "Loading - Area Alt"
+      start: "0xO1fff55=1"
+      stop: "0xO1fff55=0"
+      max_frames: 1500
